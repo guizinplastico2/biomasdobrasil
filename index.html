@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biomas do Brasil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        img {
+            width: 80%;
+            max-width: 600px;
+        }
+        map area {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Biomas do Brasil</h1>
+    <p>Clique em um bioma para saber mais</p>
+    
+    <!-- Imagem com mapa clicável -->
+    <img src="images/image.jpg" alt="Biomas do Brasil" usemap="#biomas-map">
+    
+    <map name="biomas-map">
+        <area shape="rect" coords="80,80,372,236" href="amazonia.html" alt="Amazônia">
+        <area shape="rect" coords="494,160,615,221" href="caatinga.html" alt="Caatinga">
+        <area shape="rect" coords="492,304,304,373" href="cerrado.html" alt="Cerrado">
+        <area shape="rect" coords="19,346,295,402" href="pantanal.html" alt="Pantanal">
+        <area shape="rect" coords="296,447,544,530" href="mataatlantica.html" alt="Mata Atlântica">
+        <area shape="rect" coords="243,544,386,618" href="pampa.html" alt="Pampa">
+    </map>
+
+</body>
+</html>
